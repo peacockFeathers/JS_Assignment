@@ -1,17 +1,3 @@
-console.log(square(2));
-
-function square(x) {
-    return x * x;
-}
-    
-console.log(square(8));
-
-console.log(callSquare(10));
-
-function callSquare(x) {
-    return square(x);
-}
-
 // Write a JavaScript program that declares a function but calls it before it is declared.
 // Because of function hoisting this will work in JavaScript. Go prove it!
 
